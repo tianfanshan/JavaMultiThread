@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 通过Hook线程防止程序重复启动
  */
-public class Test {
+public class AddShutDownHook {
 
     public static void main(String[] args) {
         //1)注入Hook线程，在程序退出时删除.lock文件
